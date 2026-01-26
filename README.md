@@ -3,7 +3,7 @@
 A Comprehensive PostgreSQL database schema for a modern digital banking system with support for multi-currrency operations, loan management, investments and compliance tracking.  
 
 ## Table of Contents 
-- [Overview](#Overview)
+- [Overview](#overview)
 - [Architecture](##Architecture)
 - [Design Principles] (#Design-principles)
 - [Features] (#Features)
@@ -17,7 +17,7 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 - [Version History](#Version-history)
 
 
-##Overview
+##overview
 
 
 ##Architecture
