@@ -7,7 +7,7 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 - [Architecture](#Architecture)
 - [Design Principles](#Design-principles)
 - [Features](#Features)
-- [Schema Structure](#Schema-structure)
+- [Schema Structure](#Schema_structure)
 - [key Tables](#Key-tables)
 - [Partitioning Strategy](#Partitioned-strategy)
 - [Security Features](#Security-features)
@@ -86,7 +86,7 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 
 ## Features
 
-## Schema-structure
+## Schema_structure
 
 ## Key-tables
 
