@@ -13,11 +13,70 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 - [Security Features] (#Security-features)
 - [Feature-Enhancement] (#Future-enhancement)
 - [Contribution Guidelines] (#Contribution-guidelines)
-- [Acknowkledgement] (#Ackowledgement)
+- [Acknowkledgement] (#Acknowledgement)
 - [Version History](#Version-history)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##overview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ##Architecture
@@ -39,6 +98,6 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 
 #Contribution-guidelines
 
-#Ackowledgement
+#Acknowledgement
 
 #Version-history
