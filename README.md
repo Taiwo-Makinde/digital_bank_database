@@ -5,15 +5,15 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 ## Table of Contents 
 - [Overview](#overview)
 - [Architecture](##Architecture)
-- [Design Principles] (#Design-principles)
-- [Features] (#Features)
-- [Schema Structure] (#Schema-structure)
-- [key Tables] (#Key-tables)
-- [Partitioning Strategy] (#Partitioned-strategy)
-- [Security Features] (#Security-features)
-- [Feature-Enhancement] (#Future-enhancement)
-- [Contribution Guidelines] (#Contribution-guidelines)
-- [Acknowkledgement] (#Acknowledgement)
+- [Design Principles](#Design-principles)
+- [Features](#Features)
+- [Schema Structure](#Schema-structure)
+- [key Tables](#Key-tables)
+- [Partitioning Strategy](#Partitioned-strategy)
+- [Security Features](#Security-features)
+- [Feature-Enhancement](#Future-enhancement)
+- [Contribution Guidelines](#Contribution-guidelines)
+- [Acknowkledgement](#Acknowledgement)
 - [Version History](#Version-history)
 
 
@@ -61,7 +61,7 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 
 
 
-##overview
+## overview
 
 
 
@@ -81,23 +81,23 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 
 ## Architecture
 
-##Design-principles
+## Design-principles
 
 
-##Features
+## Features
 
-#Schema-structure
+# Schema-structure
 
-#Key-tables
+# Key-tables
 
-#Partitioned-strategy
+# Partitioned-strategy
 
-#Security-features
+# Security-features
 
-#Future-enhancement
+# Future-enhancement
 
-#Contribution-guidelines
+# Contribution-guidelines
 
-#Acknowledgement
+# Acknowledgement
 
-#Version-history
+# Version-history
