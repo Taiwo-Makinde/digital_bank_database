@@ -100,4 +100,4 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 
 ## Acknowledgement
 
-# Version-history
+## Version-history
