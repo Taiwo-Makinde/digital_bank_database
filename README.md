@@ -72,33 +72,33 @@ This database schema is designed for digital-first banking platform supporting:
 - ✅ Fee management and application
 
 ### Product & Services
--✅ **Accounts**: savings, checking and current accounts 
--✅ **Loans**: personal, business, mortgage with collateral tracking
--✅ **Investments**: Individual and joint investments with ownership tracking 
--✅ **Savings**:Fixed deposit with maturity tracking 
--✅ **Cards**: Debit/credits with PIN/CVV security
--✅ **Standing Orders**: Recurring payments and transfer
+- ✅ **Accounts**: savings, checking and current accounts 
+- ✅ **Loans**: personal, business, mortgage with collateral tracking
+- ✅ **Investments**: Individual and joint investments with ownership tracking 
+- ✅ **Savings**:Fixed deposit with maturity tracking 
+- ✅ **Cards**: Debit/credits with PIN/CVV security
+- ✅ **Standing Orders**: Recurring payments and transfer
 
 ### Compliance and Security
 
--✅ KYC (Know Your Customer) verification tracking 
--✅ Comprehensive audit logs (JSON old/new values)
--✅ Fraud detection alertsw with risk scoring 
--✅ Session management with device tracking 
--✅ Login attempt monitoring 
--✅ Transaction approval workflows 
+- ✅ KYC (Know Your Customer) verification tracking 
+- ✅ Comprehensive audit logs (JSON old/new values)
+- ✅ Fraud detection alertsw with risk scoring 
+- ✅ Session management with device tracking 
+- ✅ Login attempt monitoring 
+- ✅ Transaction approval workflows 
 
 ### Multinational Support
--✅ Multi-currency operations
--✅ Exchange rate tracking with historical data
--✅ Cross border transfer to foreign banks 
--✅ SWIFT/routing number support 
+- ✅ Multi-currency operations
+- ✅ Exchange rate tracking with historical data
+- ✅ Cross border transfer to foreign banks 
+- ✅ SWIFT/routing number support 
 
 ### Performance
--✅ **Nomarlization** of the database
--✅ **Partitioned tables** for high volumn data (transactions ledger, account statements)
--✅ **Strategic Indexing** for coomon query questions 
--✅ Optimized for millions of transaction
+- ✅ **Nomarlization** of the database
+- ✅ **Partitioned tables** for high volumn data (transactions ledger, account statements)
+- ✅ **Strategic Indexing** for coomon query questions 
+- ✅ Optimized for millions of transaction
 
 
 ## Schema_structure
