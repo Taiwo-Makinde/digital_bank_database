@@ -9,7 +9,7 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 - [Features](#Features)
 - [Schema Structure](#Schema_structure)
 - [key Tables](#Key-tables)
-- [Partitioning Strategy](#Partitioned-strategy)
+- [Partitioning Strategy](#Partitioning-strategy)
 - [Security Features](#Security-features)
 - [Feature-Enhancement](#Future-enhancement)
 - [Contribution Guidelines](#Contribution-guidelines)
@@ -103,9 +103,42 @@ This database schema is designed for digital-first banking platform supporting:
 
 ## Schema_structure
 
-## Key-tables
+### Snowflake Schema 
+A **Snowflake Schema** is a normalized data model where dimension tables are further broken down into sub-dimension tables. A snowflake schema is highly normalized and reduces redundancy. 
 
-## Partitioned-strategy
+### Why Snowflakse Schema for an OLTP Bank database
+
+| Benefits | Description |
+| ---------|-------------|
+| **Storage Efficiency** | No dup;licate data - reference values is stored once |
+| **Data Consistency** | Single source of truth for all dimensions | 
+| **Update Efficency** | Changes to referrence data don't affect fact tables | 
+| **Referential Integrity** | Foreign keys enforce relationships |
+| **Scalability** | Optimized for write-heavy transactional workloads | 
+
+**Tradeoff** : More JOINS in queries (acceptable for OLTP, mitigated with views) | 
+
+### Schema Layers
+
+1. **Lookup/Reference Tables**
+   - countries, currencies, branches, *_classes tables, etc.
+2. **Core Entity Tables**
+   - customers, accounts, transactions, loans, savings, investments, etc.
+3. **Junction Tables**
+   - customers_account, customers_investment, cards_accounts, etc.
+4. **Operational Tables**
+   - accounts_transactions, loan_repayments, applied_Fees, etc.
+5. **Monitoring and Compliance Tables**
+    - audit_logs, login_attempts, session_tokens, fraud_alerts
+6. **Notification and Communication Table**
+   - notifications
+6. **Partitioned Tables**
+    - account_statements
+
+#### Partitioning-strategy
+
+
+
 
 ## Security-features
 
