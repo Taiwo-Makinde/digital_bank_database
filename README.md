@@ -129,9 +129,6 @@ A **Snowflake Schema** is a normalized data model where dimension tables are fur
 
 **Tradeoff**: More JOINS in queries (acceptable for OLTP, mitigated with views) | 
 
-
----
-
 ### Schema Layers
 
 1. **Lookup/Reference Tables**
