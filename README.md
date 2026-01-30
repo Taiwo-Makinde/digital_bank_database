@@ -20,7 +20,7 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 
 
 
-
+---
 
 
 
@@ -162,10 +162,10 @@ Partitioning improves query performance by:
 ##### Reason for Partitioned Tables
 
 ###### 1. account_statements
-**Partition Key**: 'statement_year' (yearly)
-**Strategy**: RANGE partitioning
-**Retention**: All years (statements are permanent records)
-**Reason**: account_statements table is a pre-generated account statements for users. We anticipate that this table will be frequently queried by a large number of users.
+- **Partition Key**: 'statement_year' (yearly)
+- **Strategy**: RANGE partitioning
+- **Retention**: All years (statements are permanent records)
+- **Reason**: account_statements table is a pre-generated account statements for users. We anticipate that this table will be frequently queried by a large number of users.
 
 
 ---
