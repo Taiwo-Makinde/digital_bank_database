@@ -12,7 +12,8 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 - [Partitioning Strategy](#Partitioning-strategy)
 - [Security Features](#Security-features)
 - [Feature-Enhancement](#Future-enhancement)
-- [Database Statistics](#Database-Statistics )
+- [Database Statistics](#Database-Statistics)
+- [Project Structure](#Project-Structure)
 - [Version History](#Version-history)
 
 
@@ -216,8 +217,19 @@ Partitioning improves query performance by:
 | Indexes | 60+ |
 | Foreign Keys | 80+ |
 | CHECK Constraints | 50+ |
-| ENUM Types | 10| 
+| ENUM Types | 10|
 
+---
+## Project-Structure
+
+| Folder | Purpose | When to Use |
+| ------ | -------- | ----------- |
+| **diagrams/** | Visual database diagrams (Entity relationship model diagram) | Understanding relationships and architecture|
+| **schema/** | SQL table definitions and indexes | Initial database setup |
+| **migrations/** | Version-controlled schema changes | Updating existing databases |
+| **seeds/** | Reference and test data | Populating lookup tables and testing | 
+| **security/** | Roles, permissiions, RLS policies | Access control configuration |
+|**scripts/** | Maintenance and utility scripts | Ongoing operations and monitoring |
 
 ---
 
