@@ -8,6 +8,7 @@ A Comprehensive PostgreSQL database schema for a modern digital banking system w
 - [General Design Principles](#General-Design-principles)
 - [Features](#Features)
 - [Schema Structure](#Schema_structure)
+- [Database Diagram](#Database_Diagram)
 - [key Tables](#Key-tables)
 - [Partitioning Strategy](#Partitioning-strategy)
 - [Security Features](#Security-features)
@@ -129,6 +130,15 @@ A **Snowflake Schema** is a normalized data model where dimension tables are fur
 | **Scalability** | Optimized for write-heavy transactional workloads | 
 
 **Tradeoff**: More JOINS in queries (acceptable for OLTP, mitigated with views) | 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Database_Diagram
+![Entity Relationship Diagram](digital_bank_database/blob/main/diagrams/ermd_digital_bank_database.png)
+
+*[View full-size diagram](digital_bank_database/blob/main/diagrams/ermd_digital_bank_database.png)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Schema Layers
 
