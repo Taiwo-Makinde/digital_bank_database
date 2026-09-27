@@ -133,9 +133,9 @@ A **Snowflake Schema** is a normalized data model where dimension tables are fur
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Database_Diagram
-![Entity Relationship Diagram](digital_bank_database/blob/main/diagrams/ermd_digital_bank_database.png)
+![Entity Relationship Diagram](digital_bank_database/diagrams/ermd_digital_bank_database.png)
 
-*[View full-size diagram](digital_bank_database/blob/main/diagrams/ermd_digital_bank_database.png)
+*[View full-size diagram](digital_bank_database/diagrams/ermd_digital_bank_database.png)
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
